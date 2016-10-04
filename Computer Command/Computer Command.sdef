@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+
+<dictionary title="Dictionary" xmlns:xi="http://www.w3.org/2003/XInclude">
+	<suite name="Computer Command" code="ccmd" description="Commands Commanding Computer Command">
+		
+		<command name="process" code="cmmdprcs" description="adsf">
+			<cocoa class="Transceiver"/>
+			<result type="text" description="the output"/>
+			<parameter name="input" code="inpt" type="text" description="Process this input">
+				<cocoa key="input"/>
+            </parameter>
+		</command>
+		
+	</suite>
+</dictionary>
+
